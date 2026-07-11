@@ -44,3 +44,40 @@ static/
 - Contact form
 - SQLite database
 - Responsive design
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/jcrosbybuilds/flask-music-studio.git
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the application
+
+```bash
+python app.py
+```
+
+Open your browser and navigate to:
+
+```
+http://127.0.0.1:5000
+```
+
+## What I learned
+
+This project strengthened my understanding of:
+
+- Developing web applications with Flask
+- Using Jinja2 template inheritance to create reusable layouts
+- Organizing HTML templates and static assets
+- Passing dynamic data from Python to HTML templates
+- Structuring a small Python web application
+- Using Git and GitHub for version control and project documentation
