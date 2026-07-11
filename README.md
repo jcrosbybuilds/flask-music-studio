@@ -10,8 +10,8 @@ A multi-page web application built with Python and Flask to demonstrate web rout
 ### About
 ![About](screenshots/about.png)
 
-###Contact
-![Contact](screenshots/contact-page.png)
+### Contact
+![Contact](screenshots/contact.png)
 
 ## Technologies
 
