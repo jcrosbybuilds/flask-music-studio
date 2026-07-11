@@ -1,6 +1,10 @@
 # Flask Music Studio
 
-A multi-page web application built with Python and Flask to demonstrate web routing, HTML templating, CSS styling, and dynamic content rendering.
+A multi-page web application built with Python and Flask featuring dynamic routing, reusable Jinja2 templates, shared CSS styling, and server-rendered content.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey)
+![HTML](https://img.shields.io/badge/HTML5-Markup-orange)
+![CSS](https://img.shields.io/badge/CSS3-Styling-blue)
 
 ## Screenshot
 
@@ -32,11 +36,23 @@ A multi-page web application built with Python and Flask to demonstrate web rout
 
 ## Project Structure
 
-```
-app.py
-templates/
-static/
-```
+```text
+flask-music-studio/
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── screenshots/
+│   ├── homepage.png
+│   ├── about-page.png
+│   └── contact-page.png
+├── static/
+│   └── style.css
+└── templates/
+    ├── about.html
+    ├── base.html
+    ├── contact.html
+    └── home.html
 
 ## Future Improvements
 
