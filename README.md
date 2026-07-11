@@ -2,6 +2,17 @@
 
 A multi-page web application built with Python and Flask to demonstrate web routing, HTML templating, CSS styling, and dynamic content rendering.
 
+## Screenshot
+
+### Home
+![Homepage](screenshots/homepage.png)
+
+### About
+![About](screenshots/about.png)
+
+###Contact
+![Contact](screenshots/contact-page.png)
+
 ## Technologies
 
 - Python
