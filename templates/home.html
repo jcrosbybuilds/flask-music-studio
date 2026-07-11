@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>Welcome to the home page of the Sol Fa Fun Studio website!</p>
+
+
+<h3>Lessons We Offer</h3>
+<ol>
+    <li>Vocal Health</li>
+    <li>Piano</li>
+    <li>Group & Choir Lessons</li>
+</ol>
+
+<h3>NIH Studies</h3>
+<ul>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/36908211/" target="_blank">Vocal Health</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5618809/" target="_blank">Music and the Brain</a></li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/search/research-news/19199/" target="_blank">Singing is Good for You</a></li>
+</ul>
+
+<p>Current Date and Time: <strong>{{ time }}</strong></p>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Sol Fa Fun Studio{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sol Fa Fun Studio's Flask Site</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a> 
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr> <!-- This is "horizontal rule", which adds a horizontal line or break across the page-->
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>&copy; 2025 - My Site</p>
+    </footer>
+</body>
+</html>
